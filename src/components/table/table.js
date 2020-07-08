@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./table.css";
-import Player from "./../player/player";
+import Player from "./components/player/player";
 
 function Table() {
   return (
