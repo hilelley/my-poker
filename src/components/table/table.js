@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./table.css";
-import Player from "../player/player";
+import Player from "./../player/player";
 
 function Table() {
   return (
-    <div>
-      <Player name="david" credit="22" />
-      <div className="table">"hilelelele"</div>
+    <div className="table">
+      <div className="tabelImg">
+        tabel
+        <Player />
+      </div>
     </div>
   );
 }
