@@ -1,7 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import "./player.css";
+
 function Player(props) {
-  return <div>player</div>;
+  return (
+    <div>
+      <div className={props.className}>
+        <img src={props.pictuer} />
+        <br></br>
+        <span>{props.name}</span>
+        <br></br>
+        <span>{props.credit}</span>
+      </div>
+    </div>
+  );
 }
 export default Player;
-const Panel = (props) => <div className="Panel">{props.children}</div>;
